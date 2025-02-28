@@ -1,0 +1,12 @@
+.vscode/**
+.dep/**
+obj/**
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.sym
+.DS_Store
+f73-rncontrol-lib
+avr-can-lib
