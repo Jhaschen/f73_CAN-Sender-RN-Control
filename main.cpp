@@ -31,7 +31,7 @@ int main()
     uartInit(57600, 8, 'N', 1);
     can_init(BITRATE_500_KBPS); // CAN init 500 kbit/s
 
-    // Counter 1 CTC Mode 1ms
+    // Counter 0 CTC Mode 1ms
     counter0SetCompare(249);
     counter0EnableCompareMatchInterrupt();
     counter0EnableCTC; // set CTC mode
